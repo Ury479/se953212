@@ -307,10 +307,19 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xFw7W3s8PV2PmgHc9Nrw" name="relation diagram">
-    <mxGraphModel dx="694" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1627" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C3xlkhAmbXzD14v-iu1--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C3xlkhAmbXzD14v-iu1--1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="330.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="210" />
+              <mxPoint x="-10" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="C3xlkhAmbXzD14v-iu1--1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="180" width="120" height="60" as="geometry" />
         </mxCell>
@@ -327,22 +336,89 @@
           <mxGeometry x="560" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3xlkhAmbXzD14v-iu1--6" value="Feedback" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3xlkhAmbXzD14v-iu1--7" value="feedback_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C3xlkhAmbXzD14v-iu1--8" target="C3xlkhAmbXzD14v-iu1--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="C3xlkhAmbXzD14v-iu1--8" target="C3xlkhAmbXzD14v-iu1--35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="C3xlkhAmbXzD14v-iu1--8" value="Transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="80" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3xlkhAmbXzD14v-iu1--9" value="Transaction_id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3xlkhAmbXzD14v-iu1--10" value="The amount of the transaction" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="440" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="440" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3xlkhAmbXzD14v-iu1--11" value="Payment methods" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="480" width="120" height="60" as="geometry" />
+          <mxGeometry x="320" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--12" value="Trading hours" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--13" value="Power Bank" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--14" value="Battery status" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--15" value="Last Charge Date" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--16" value="Number of uses" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--17" value="Return Status" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--18" value="Station" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--19" value="Station_id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--20" value="status(availability)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--21" value="in use" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--22" value="under maintenance" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--23" value="location" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--24" value="num of power bank" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--25" value="remain of power bank" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.012;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="C3xlkhAmbXzD14v-iu1--1" target="C3xlkhAmbXzD14v-iu1--8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40.24000000000001" y="475.82000000000016" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-100" y="210" />
+              <mxPoint x="-100" y="476" />
+              <mxPoint x="79" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--34" value="user_id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--35" value="station_id" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3xlkhAmbXzD14v-iu1--36" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="440" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
